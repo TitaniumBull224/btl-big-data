@@ -12,6 +12,3 @@ if __name__ == "__main__":
     for message in consumer:
         print(f"Received message: {message.value}")
         time.sleep(1)
-        # this will stop if e is pressed
-        if input() == "e":
-            break
